@@ -12,9 +12,9 @@ npm start
 
 ## Screenshots
 
-![equipos-1](https://raw.githubusercontent.com/durancristhian/equipos/master/screenshots/equipos-1.png)
+![equipos-1](https://raw.githubusercontent.com/durancristhian/equipos/master/screenshots/equipos-1.jpeg)
 
-![equipos-2](https://raw.githubusercontent.com/durancristhian/equipos/master/screenshots/equipos-2.png)
+![equipos-2](https://raw.githubusercontent.com/durancristhian/equipos/master/screenshots/equipos-2.jpeg)
 
 ## Licencia
 
