@@ -1,5 +1,7 @@
 # equipos
 
+> 👫 Maqueta para pre-visualizar los equipos de fútbol de la comunidad.
+
 ## Desarrollo
 
 ```bash

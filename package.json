@@ -1,7 +1,7 @@
 {
   "name": "equipos",
   "version": "1.0.0",
-  "description": "Maqueta para pre-visualizar los equipos de fútbol de la comunidad",
+  "description": "👫 Maqueta para pre-visualizar los equipos de fútbol de la comunidad.",
   "scripts": {
     "build": "parcel build src/index.html",
     "start": "parcel src/index.html --open"
