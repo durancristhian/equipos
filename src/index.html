@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Equipos</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <template id="template">
+      <div class="screen">
+        <div id="field-id" class="screen-top">
+          <div class="field-container">
+            <div class="field">
+              <div class="lines">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+                <div class="line line4"></div>
+                <div class="line line5"></div>
+                <div class="mid-field mid-field-left"></div>
+                <div class="mid-field mid-field-right"></div>
+                <div class="round"></div>
+                <div class="dot dot-center"></div>
+                <div class="square square-big square-left"></div>
+                <div class="square square-small square-left"></div>
+                <div class="dot dot-left"></div>
+                <div class="square square-big square-right"></div>
+                <div class="square square-small square-right"></div>
+                <div class="dot dot-right"></div>
+                <div class="corner corner-bottom-left"></div>
+                <div class="corner corner-bottom-right"></div>
+                <div class="corner corner-top-left"></div>
+                <div class="corner corner-top-right"></div>
+              </div>
+              <div class="flag flag-bottom-left"></div>
+              <div class="flag flag-bottom-right"></div>
+              <div class="flag flag-top-left"></div>
+              <div class="flag flag-top-right"></div>
+              <div class="players">
+                <div id="team1-player1" class="player player1 team1"></div>
+                <div id="team1-player2" class="player player2 team1"></div>
+                <div id="team1-player3" class="player player3 team1"></div>
+                <div id="team1-player4" class="player player4 team1"></div>
+                <div id="team1-player5" class="player player5 team1"></div>
+                <div id="team1-player6" class="player player6 team1"></div>
+                <div id="team2-player1" class="player player1 team2"></div>
+                <div id="team2-player2" class="player player2 team2"></div>
+                <div id="team2-player3" class="player player3 team2"></div>
+                <div id="team2-player4" class="player player4 team2"></div>
+                <div id="team2-player5" class="player player5 team2"></div>
+                <div id="team2-player6" class="player player6 team2"></div>
+              </div>
+            </div>
+            <div class="teamNames">
+              <div id="team1-name" class="teamName"></div>
+              <div class="vs">vs.</div>
+              <div id="team2-name" class="teamName"></div>
+            </div>
+          </div>
+        </div>
+        <div class="screen-bottom">
+          <a
+            href="!#"
+            id="download"
+            class="js-download link"
+            data-field-id="field-id"
+            data-file-name="equipos"
+            >Descargar en <span class="bold">.jpeg</span></a
+          >
+        </div>
+      </div>
+    </template>
+    <script src="martes.js"></script>
+    <!-- <script src="jueves.js"></script> -->
+    <script src="download.js"></script>
+  </body>
+</html>
