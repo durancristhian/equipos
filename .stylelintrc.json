@@ -1,6 +1,15 @@
 {
-  "extends": ["stylelint-config-standard"],
+  "extends": [
+    "stylelint-config-standard"
+  ],
   "rules": {
-    "indentation": [2, { "ignore": ["value"] }]
+    "indentation": [
+      2,
+      {
+        "ignore": [
+          "value"
+        ]
+      }
+    ]
   }
 }

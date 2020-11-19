@@ -8,8 +8,8 @@ import {
   getTeam,
   getTeamConfig,
   MALE,
-  updateAverage,
-  showInConsole
+
+  showInConsole, updateAverage
 } from './auxiliar';
 
 const players = [

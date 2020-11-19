@@ -10,13 +10,13 @@ function onClick(event) {
 
   domtoimage
     .toPng(printable)
-    .then(function(dataUrl) {
+    .then(function (dataUrl) {
       const link = document.createElement('a');
       link.download = `${event.target.dataset.fileName}.jpeg`;
       link.href = dataUrl;
       link.click();
     })
-    .catch(function(error) {
+    .catch(function (error) {
       console.error('Oops, something went wrong!', error);
     });
 }
